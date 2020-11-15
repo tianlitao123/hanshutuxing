@@ -1,0 +1,9 @@
+<resources>
+    <!-- format是值该属性的取值类型:string,color,demension,integer,enum,reference,float,boolean,fraction,flag -->
+    <declare-styleable name="CustomView">
+        <attr name="exampleString1" format="string" />
+        <attr name="exampleDimension1" format="dimension" />
+        <attr name="exampleColor1" format="color" />
+    </declare-styleable>
+
+</resources>

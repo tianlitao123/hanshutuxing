@@ -1,0 +1,77 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:columnCount="3"
+
+
+    android:orientation="horizontal"
+    android:rowCount="4"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/txtFunction1"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:hint="请输入函数表达式"
+
+        />
+
+    <Button
+        android:id="@+id/buttonPlot1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+
+        android:text="@string/buttonHuizhi" />
+    <Button
+        android:id="@+id/buttonFangda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:text="放大"
+        />
+    <Button
+        android:id="@+id/buttonsuoxiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:text="缩小"
+        />
+    <Button
+        android:id="@+id/buttonyanse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:text="变颜色"
+        />
+
+    <Button
+        android:id="@+id/buttonxiantiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:text="线条粗细" />
+
+    <com.example.hanshutuxinghuizhiqi.MyView
+
+        android:id="@+id/plotview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:background="#ccc"
+        app:exampleColor="#33b5e5"
+        app:exampleDimension="50dp"
+        app:exampleString="Hello, MyView">
+    </com.example.hanshutuxinghuizhiqi.MyView>
+
+
+</GridLayout>

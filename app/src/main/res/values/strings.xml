@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">hanshutuxinghuizhiqi</string>
+    <string name="buttonHuizhi">绘制</string>
+    <string name="hintHanshu">请输入一个函数</string>
+</resources>
